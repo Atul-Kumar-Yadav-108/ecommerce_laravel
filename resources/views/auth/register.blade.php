@@ -4,13 +4,13 @@
 
         <!-- Name -->
         <div>
-            <x-input-label for="name" :value="__('first_name')" />
+            <x-input-label for="name" :value="__('lang.first_name')" />
             <x-text-input id="name" class="block mt-1 w-full" type="text" name="name" :value="old('name')" required autofocus autocomplete="name" />
             <x-input-error :messages="$errors->get('name')" class="mt-2" />
         </div>
 
         <div>
-            <x-input-label for="name" :value="__('last_name')" />
+            <x-input-label for="name" :value="__('lang.last_name')" />
             <x-text-input id="name" class="block mt-1 w-full" type="text" name="name" :value="old('name')" required autofocus autocomplete="name" />
             <x-input-error :messages="$errors->get('name')" class="mt-2" />
         </div>
